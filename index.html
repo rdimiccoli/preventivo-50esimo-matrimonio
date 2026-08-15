@@ -4,17 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Preventivo · 50° di Matrimonio — Ruggiero Dimiccoli</title>
+<meta name="description" content="Tre soluzioni per il servizio fotografico delle vostre nozze d'oro, da € 100 a € 360. Consegna digitale e 10 stampe omaggio incluse — Ruggiero Dimiccoli Fotografia.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='7'%20fill='%238F6E3C'/%3E%3Ccircle%20cx='16'%20cy='16'%20r='7.5'%20fill='none'%20stroke='%23FCFAF5'%20stroke-width='2'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
 
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://rdimiccoli.github.io/preventivo-50esimo/">
+<meta property="og:url" content="https://rdimiccoli.github.io/preventivo-50esimo-matrimonio/">
 <meta property="og:title" content="Preventivo Fotografico · 50° di Matrimonio">
 <meta property="og:description" content="Tre soluzioni per raccontare le vostre nozze d'oro — Ruggiero Dimiccoli Fotografia">
-<meta property="og:image" content="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=1200&q=80">
+<meta property="og:image" content="https://rdimiccoli.github.io/preventivo-50esimo-matrimonio/og-cover.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=1200&q=80">
+<meta name="twitter:image" content="https://rdimiccoli.github.io/preventivo-50esimo-matrimonio/og-cover.jpg">
 
 <style>
   :root{
@@ -71,7 +73,7 @@
   .photo{width:100%;display:block;border-radius:4px;box-shadow:0 14px 34px rgba(60,48,24,.16);}
 
   /* COVER */
-  .cover{padding:0;text-align:center;position:relative;overflow:hidden;min-height:100svh;display:flex;flex-direction:column;background:var(--paper);}
+  .cover{padding:0;text-align:center;position:relative;overflow:hidden;min-height:100vh;min-height:100svh;display:flex;flex-direction:column;background:var(--paper);}
   .cover-img-wrap{position:absolute;inset:0;}
   .cover-img-wrap img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(1.03);opacity:.95;}
   .cover-img-wrap::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(40,32,18,.28) 0%,rgba(40,32,18,.42) 55%,rgba(34,28,16,.78) 100%);}
@@ -126,6 +128,11 @@
   .interlude .veil .q{font-style:italic;font-size:clamp(1.5rem,6vw,2.1rem);line-height:1.35;max-width:24ch;text-shadow:0 1px 14px rgba(0,0,0,.4);font-weight:400;}
   .interlude .veil .sig{margin-top:20px;font-size:.74rem;letter-spacing:.32em;text-transform:uppercase;color:#E6D2A6;opacity:.95;}
 
+  /* PORTFOLIO */
+  .btn-portfolio{display:inline-block;margin-top:8px;padding:16px 36px;border:1px solid var(--gold);color:var(--gold-deep);text-decoration:none;letter-spacing:.22em;text-transform:uppercase;font-size:.85rem;transition:background .25s,color .25s;}
+  .btn-portfolio:hover{background:var(--gold);color:#fff;}
+
+
   /* INFO */
   .info{background:var(--paper-2);}
   .info .block{margin-bottom:30px;}
@@ -173,7 +180,7 @@
   <!-- COVER -->
   <section class="cover" style="border-top:0;">
     <div class="cover-img-wrap">
-      <img alt="50 anni di matrimonio" loading="eager" src="https://images.unsplash.com/photo-1627293509201-cd0c780043e6?auto=format&fit=crop&w=1200&q=80">
+      <img alt="Cinquant'anni di matrimonio" loading="eager" fetchpriority="high" decoding="async" src="https://pub-822ee98e2b2545f886fdcc8a4083cde6.r2.dev/foto-50esimi-anniversari/(68).jpg">
     </div>
     <div class="cover-content">
       <div class="brand">
@@ -182,7 +189,7 @@
       </div>
       <p class="eyebrow">Preventivo · Servizio fotografico</p>
       <h1>Nozze<br>d'Oro</h1>
-      <p class="prepared" style="margin-top:14px;">50° di Matrimonio · Valido 30 giorni · 2026</p>
+      <p class="prepared" style="margin-top:14px;">50° di Matrimonio · Valido <strong>30 giorni</strong> dalla data di invio · 2026</p>
     </div>
   </section>
 
@@ -196,14 +203,14 @@
       </div>
     </div>
     <figure>
-      <img class="photo" alt="Fede nuziale d'oro" src="https://pub-822ee98e2b2545f886fdcc8a4083cde6.r2.dev/foto-50esimi-anniversari/(20).jpg">
+      <img class="photo" loading="lazy" decoding="async" alt="Fede nuziale d'oro" src="https://pub-822ee98e2b2545f886fdcc8a4083cde6.r2.dev/foto-50esimi-anniversari/(20).jpg">
     </figure>
     <div class="body">
       <p>Il servizio prevede la prestazione fotografica durante la <strong>celebrazione della messa in chiesa</strong>, con copertura dell'intero rito fino al termine della funzione.</p>
       <p>Tutte le immagini saranno consegnate dopo un'attenta <strong>selezione</strong> e un'accurata <strong>post-produzione</strong>.</p>
     </div>
     <div class="priceline">
-      <div class="lab">Al prezzo di<small>Consegna digitale inclusa</small></div>
+      <div class="lab">Al prezzo di<small>Consegna digitale + 10 stampe omaggio incluse</small></div>
       <div class="big">€&nbsp;100</div>
     </div>
     <div style="text-align:center;">
@@ -213,7 +220,7 @@
 
   <!-- DIVIDER 1 -->
   <section class="interlude">
-    <img alt="Fedi nuziali d'oro" src="https://images.unsplash.com/photo-1554047310-ab6170fc7b10?auto=format&fit=crop&w=1500&q=80">
+    <img loading="lazy" decoding="async" alt="Gli sposi in chiesa" src="https://pub-822ee98e2b2545f886fdcc8a4083cde6.r2.dev/foto-50esimi-anniversari/(48).jpg">
     <div class="veil">
       <div class="q">«Cinquant'anni insieme: mezzo secolo d'amore da celebrare.»</div>
       <div class="sig">Ruggiero Dimiccoli · Fotografia</div>
@@ -230,7 +237,7 @@
       </div>
     </div>
     <figure>
-      <img class="photo" alt="Fede d'oro su tessuto" src="https://pub-822ee98e2b2545f886fdcc8a4083cde6.r2.dev/foto-50esimi-anniversari/(51).jpg">
+      <img class="photo" loading="lazy" decoding="async" alt="Fede d'oro su tessuto" src="https://pub-822ee98e2b2545f886fdcc8a4083cde6.r2.dev/foto-50esimi-anniversari/(51).jpg">
     </figure>
     <div class="body">
       <p>Il servizio prevede la prestazione fotografica durante la <strong>celebrazione della messa in chiesa</strong>, con copertura dell'intero rito fino al termine della funzione.</p>
@@ -238,7 +245,7 @@
       <p>Tutte le immagini saranno consegnate dopo un'attenta <strong>selezione</strong> e un'accurata <strong>post-produzione</strong>.</p>
     </div>
     <div class="priceline">
-      <div class="lab">Al prezzo di<small>Consegna digitale inclusa</small></div>
+      <div class="lab">Al prezzo di<small>Consegna digitale + 10 stampe omaggio incluse</small></div>
       <div class="big">€&nbsp;220</div>
     </div>
     <div style="text-align:center;">
@@ -248,7 +255,7 @@
 
   <!-- DIVIDER 2 -->
   <section class="interlude">
-    <img alt="Dettaglio fedi d'oro" src="https://pub-822ee98e2b2545f886fdcc8a4083cde6.r2.dev/foto-50esimi-anniversari/(80).jpg">
+    <img loading="lazy" decoding="async" alt="Dettaglio fedi d'oro" src="https://pub-822ee98e2b2545f886fdcc8a4083cde6.r2.dev/foto-50esimi-anniversari/(80).jpg">
     <div class="veil">
       <div class="q">«Le fedi, gli sguardi, i dettagli che il tempo ha reso preziosi.»</div>
       <div class="sig">Nozze d'oro</div>
@@ -265,7 +272,7 @@
       </div>
     </div>
     <figure>
-      <img class="photo" alt="Fedi nuziali" src="https://pub-822ee98e2b2545f886fdcc8a4083cde6.r2.dev/foto-50esimi-anniversari/(84).jpg">
+      <img class="photo" loading="lazy" decoding="async" alt="Fedi nuziali" src="https://pub-822ee98e2b2545f886fdcc8a4083cde6.r2.dev/foto-50esimi-anniversari/(84).jpg">
     </figure>
     <div class="body">
       <p>Il servizio prevede una prima parte di <strong>scatti presso l'abitazione degli sposi</strong>, dedicati ai momenti preparatori prima della celebrazione.</p>
@@ -274,7 +281,7 @@
       <p>Tutte le immagini saranno consegnate dopo un'attenta <strong>selezione</strong> e un'accurata <strong>post-produzione</strong>.</p>
     </div>
     <div class="priceline">
-      <div class="lab">Al prezzo di<small>Consegna digitale inclusa</small></div>
+      <div class="lab">Al prezzo di<small>Consegna digitale + 10 stampe omaggio incluse</small></div>
       <div class="big">€&nbsp;360</div>
     </div>
     <div style="text-align:center;">
@@ -311,9 +318,6 @@
       <p>Per eventi in <strong>altre province</strong> è previsto un contributo spese di trasferta di <strong>€ 40</strong>.</p>
     </div>
 
-    <figure style="margin-top:34px;">
-      <img class="photo" alt="Dettaglio nozze d'oro" src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=1200&q=80" style="aspect-ratio:16/7;object-fit:cover;">
-    </figure>
   </section>
 
   <!-- EXTRA -->
@@ -359,11 +363,14 @@
     </div>
   </section>
 
-  <!-- CTA GRANDE -->
-  <div class="cta-big-wrap">
-    <p class="sub">Avete scelto la soluzione giusta per le vostre nozze d'oro?<br>Prenotate subito per bloccare la data.</p>
-    <a class="cta-big" href="https://booking-fotografo.vercel.app" target="_blank" rel="noopener">Prenota ora</a>
-  </div>
+  <!-- PORTFOLIO -->
+  <section class="page" style="text-align:center;">
+    <p class="eyebrow">Portfolio</p>
+    <h2 class="title">Altri miei scatti</h2>
+    <p class="muted" style="max-width:42ch;margin:0 auto;">Una selezione dei miei lavori dedicati alle cerimonie.</p>
+    <div class="diamond"><span>◆</span></div>
+    <a class="btn-portfolio" href="https://ruggierodimiccoli.myportfolio.com/wedding-shoot" target="_blank" rel="noopener">Guarda il portfolio</a>
+  </section>
 
   <!-- CONFRONTO -->
   <section class="compare page">
@@ -409,6 +416,12 @@
     <div class="note">Tutte le soluzioni includono la <strong>consegna digitale</strong> degli scatti e <strong>10 stampe omaggio</strong> in formato 15×22 cm.</div>
   </section>
 
+  <!-- CTA GRANDE -->
+  <div class="cta-big-wrap">
+    <p class="sub">Avete scelto la soluzione giusta per le vostre nozze d'oro?<br>Prenotate subito per bloccare la data.</p>
+    <a class="cta-big" href="https://booking-fotografo.vercel.app" target="_blank" rel="noopener">Prenota ora</a>
+  </div>
+
   <!-- GRAZIE -->
   <section class="thanks">
     <h2>Grazie</h2>
@@ -416,7 +429,8 @@
     <div class="diamond center"><span>◆</span></div>
     <div class="contact">
       <div class="name">Ruggiero Dimiccoli</div>
-      <a href="https://wa.me/393299392486">Scrivimi su WhatsApp</a>
+      <a href="https://wa.me/393299392486?text=Ciao%20Ruggiero%2C%20abbiamo%20letto%20il%20preventivo%20per%20il%2050%C2%B0%20di%20matrimonio%20e%20vorremmo%20qualche%20informazione." target="_blank" rel="noopener">Scrivimi su WhatsApp</a>
+      <div>+39 329 939 2486</div>
     </div>
   </section>
 
